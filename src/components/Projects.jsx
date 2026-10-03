@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 import zawara from '../assets/zawara.png';
+import reborn from "../assets/reborn.png"
 import crmImg from '../assets/crm.png';
-import laundryImg from '../assets/laundry.png';
 import gymImg from '../assets/gym.png';
 
 const projectsList = [
@@ -21,34 +21,29 @@ const projectsList = [
       'Cloudinary',
     ],
     description:
-      'Developed an e-commerce platform with product management, order processing, online payments, order tracking, and administrative functionality.',
+      'Developed a full-stack e-commerce platform with product management, customer orders, online payments, order tracking, invoice generation, cloud image storage, and administrative management. Implemented REST APIs and integrated Razorpay for secure online payment processing.',
     github: 'https://github.com',
     demo: 'https://zawara.in',
   },
   {
-    title: 'Alreem Gym Management System',
+    title: 'Mr Gym Management System',
     image: crmImg,
     tech: [
-      'Python',
-      'Django',
-      'Django REST Framework',
-      'PostgreSQL',
-      'React',
-      'Cloudinary',
+      'Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'React', 'Tailwind CSS', 'Cloudinary', 'REST APIs'
     ],
     description:
-      'Developed a centralized gym management platform for managing members, memberships, branches, attendance, payments, expenses, and administrative operations. Implemented REST APIs, role-based access control, cloud image storage, and a responsive React dashboard.',
+      'Developed a centralized gym management system for managing members, memberships, branches, attendance, payments, expenses, product sales, workout plans, and administrative operations. Implemented REST APIs, role-based access control, cloud image storage, and a responsive React admin dashboard..',
     github: 'https://github.com',
     demo: 'https://example.com',
   },
   {
-    title: 'Laundry Service Application',
-    image: laundryImg,
-    tech: ['React.js', 'Tailwind CSS', 'Django', 'MySQL'],
+    title: 'Reborn Fitness Management System',
+    image: reborn,
+    tech: ['Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'React', 'Capacitor'],
     description:
-      'On-demand laundry scheduling and booking app equipped with a responsive date picker calendar, dynamic invoice pricing calculators, and real-time status tracking dashboards.',
+      'Developed an admin management system for monitoring and managing fitness business sales data. Implemented a responsive React-based dashboard with Django REST APIs for managing sales information, viewing records, and presenting business data in an organized interface.',
     github: 'https://github.com',
-    demo: 'https://example.com',
+    demo: 'https://rebornfe.netlify.app/',
   },
   {
     title: 'Gym Management System',
@@ -57,7 +52,7 @@ const projectsList = [
     description:
       'A centralized portal managing memberships, automated renewal reminders, QR attendance checkpoints, and trainer workout appointment scheduling.',
     github: 'https://github.com',
-    demo: 'https://example.com',
+    demo: 'https://trongym.netlify.app/',
   },
 ];
 

@@ -64,7 +64,7 @@ export default function About() {
             </h3>
 
             <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-              I am a dedicated, details-driven <span className="font-semibold text-indigo-600 dark:text-indigo-400">Python Full Stack Developer</span> from Kerala, India. Currently working as a Python Full Stack Developer Trainee at <span className="font-semibold text-indigo-600 dark:text-indigo-400">Tron Digital Academy</span>, I have built solid foundations in engineering scalable web solutions during my 2 months of training.
+              I am a dedicated, details-driven <span className="font-semibold text-indigo-600 dark:text-indigo-400">Python Full Stack Developer</span> from Kerala, India. Currently working as a Python Full Stack Developer at <span className="font-semibold text-indigo-600 dark:text-indigo-400">Tron Digital Academy</span>, I have built solid foundations in engineering scalable web solutions during my 2 months of training.
             </p>
 
             <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed">

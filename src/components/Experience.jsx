@@ -19,7 +19,7 @@ export default function Experience() {
       className="py-24 bg-white dark:bg-[#0b0f19] text-slate-800 dark:text-slate-100 transition-colors duration-300"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Heading */}
         <div className="text-center mb-16">
           <motion.h2
@@ -42,7 +42,7 @@ export default function Experience() {
 
         {/* Timeline Container */}
         <div className="relative border-l border-slate-200 dark:border-slate-800 ml-4 md:ml-8 pl-8 space-y-12">
-          
+
           {/* Timeline Node */}
           <div className="relative">
             {/* Pulsing indicator on the border line */}
@@ -63,17 +63,17 @@ export default function Experience() {
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-6">
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white">
-                    Python Full Stack Developer Trainee
+                    Python Full Stack Developer
                   </h3>
                   <p className="text-indigo-600 dark:text-indigo-400 font-semibold mt-1">
                     Tron Digital Academy
                   </p>
                 </div>
-                
+
                 {/* Meta details */}
                 <div className="flex flex-wrap gap-3 text-xs font-medium text-slate-500 dark:text-slate-400">
                   <span className="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 py-1 px-3.5 rounded-full">
-                    <FiCalendar className="text-indigo-500" /> 2 Months (Current)
+                    <FiCalendar className="text-indigo-500" /> 5 Months (Current)
                   </span>
                   <span className="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 py-1 px-3.5 rounded-full">
                     <FiMapPin className="text-indigo-500" /> Kerala, India
